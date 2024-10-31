@@ -76,7 +76,6 @@ def virtual_assistant():
     time.sleep(1)
 
     # Local do dataset no computador
-    dataset_path = r'C:\Users\Robson C. Augusto\Downloads\Pyhton_games\AI Vision\known_faces'  # Caminho do dataset no seu computador
     dataset_path = r'C:\Users\01\Downloads\visao_computacional\know_face'  # Caminho do dataset no seu computador
     known_face_encodings, known_face_names = load_known_faces(dataset_path)
 
