@@ -20,7 +20,7 @@ while True:
         print("Não tem frame!")
         break
 
-    windowName = cv2.imshow("Robson", frame) # Nomeando a janela
+    windowName = cv2.imshow("Daniel", frame) # Nomeando a janela
     
     k = cv2.waitKey(1) # Variavel para condição de parada.
 
